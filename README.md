@@ -29,6 +29,7 @@ alias today-praytimes="praytimes --year=$(date +\"%Y\") --month=$(date +\"%m\") 
 
 ## To Do
 
+- [ ] Memory leak test
 - [ ] Cleaner code & file structures (I think this is kinda messed-up)
 - [ ] More detailed documentation
 - [ ] Better implementation & optimization (?)
