@@ -98,6 +98,9 @@ PT__setMethod(PT pt, const PT_Method_t method)
       _pt->settings.maghrib = 4.5f;
       _pt->settings.midnight = PT_MM_JAFARI;
       break;
+    case PT_M_INDONESIA:
+      _pt->settings.fajr = 20.0f;
+      _pt->settings.isha = 18.0f;
   }
 }
 

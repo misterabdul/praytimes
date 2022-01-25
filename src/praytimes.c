@@ -37,6 +37,8 @@ main(int argc, char* argv[])
 
   PT pt = PT__new();
   PT_PrayerTimes_t results;
+  PT__setMethod(pt, PT_M_INDONESIA);
+  PT__tune(pt, 2.0f);
   if (detailed)
     printf("Date       "
            "Imsak "

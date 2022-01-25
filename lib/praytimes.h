@@ -31,13 +31,14 @@ typedef double PT_PrayerTimes_t[PT_TN_MIDNIGHT + 1];
  **/
 typedef enum PT_Methods
 {
-  PT_M_MWL,     /* Muslim World League */
-  PT_M_ISNA,    /* Islamic Society of North America */
-  PT_M_EGYPT,   /* Egyptian General Authority of Survey */
-  PT_M_MAKKAH,  /* Umm Al-Qura University, Makkah */
-  PT_M_KARACHI, /* University of Islamic Science, Karachi */
-  PT_M_TEHRAN,  /* Institue of Geophysics, University of Tehran */
-  PT_M_JAFARI,  /* Shia Ithna-Ashari, Leva Institute, Qum */
+  PT_M_MWL,       /* Muslim World League */
+  PT_M_ISNA,      /* Islamic Society of North America */
+  PT_M_EGYPT,     /* Egyptian General Authority of Survey */
+  PT_M_MAKKAH,    /* Umm Al-Qura University, Makkah */
+  PT_M_KARACHI,   /* University of Islamic Science, Karachi */
+  PT_M_TEHRAN,    /* Institue of Geophysics, University of Tehran */
+  PT_M_JAFARI,    /* Shia Ithna-Ashari, Leva Institute, Qum */
+  PT_M_INDONESIA, /* Kementrian Agama Republik Indonesia */
 } PT_Method_t;
 
 typedef enum PT_ArsJuristics
