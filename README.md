@@ -7,7 +7,7 @@ Implementation of moslem prayer times in C. Based on javascript code from: [Pray
 ```sh
 $ praytimes --year=2022 --month=01 --day=24 --timezone=7 --dst=0 --lat=3.58333 --long=97.666667 --elevation=0
 Date       Imsak Fajr  Dhuhr Asr   Maghrib Isha
-2022-01-24 05:20 05:30 12:41 16:04 18:40   19:48
+2022-01-24 05:13 05:23 12:43 16:06 18:42   19:54
 ```
 
 ## Building, Installing, & Uninstalling

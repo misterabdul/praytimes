@@ -4,6 +4,13 @@
 #ifndef __UTILS_H
 #define __UTILS_H
 
+/**
+ * Convert string to number (unsigned).
+ *
+ * @param[in]  str     The string
+ * @param[in]  strlen  The length of string
+ * @return             Converted number
+ **/
 static inline int
 str2uint(const char* str, const int strlen)
 {
@@ -17,6 +24,13 @@ str2uint(const char* str, const int strlen)
   return result;
 }
 
+/**
+ * Convert string to number (signed).
+ *
+ * @param[in]  str     The string
+ * @param[in]  strlen  The length of string
+ * @return             Converted number
+ **/
 static inline int
 str2int(const char* str, const int strlen)
 {
@@ -32,6 +46,14 @@ str2int(const char* str, const int strlen)
   return result * sign;
 }
 
+
+/**
+ * Convert string to float number (signed).
+ *
+ * @param[in]  str     The string
+ * @param[in]  strlen  The length of string
+ * @return             Converted float number
+ **/
 static inline double
 str2float(const char* str, const int strlen)
 {
@@ -57,6 +79,13 @@ str2float(const char* str, const int strlen)
   return result * sign;
 }
 
+/**
+ * Date increment
+ *
+ * @param[out]  year   Year value
+ * @param[out]  month  Month value
+ * @param[out]  day    Day value
+ **/
 static inline void
 dateInc(int* year, int* month, int* day)
 {

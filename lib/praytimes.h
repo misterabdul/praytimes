@@ -114,7 +114,7 @@ PT__adjust(PT pt,
  * Set time offsets
  *
  * @param[out] pt       PrayTimes instance
- * @param[in]  offsets  Time offsets
+ * @param[in]  offsets  Time offsets (in minutes)
  **/
 void
 PT__tune(PT pt, const double offsets);
