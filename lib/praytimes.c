@@ -132,13 +132,13 @@ PT__tune(PT pt, const double offsets)
   PrivatePT _pt = (PrivatePT)pt;
   _pt->offsets[PT_TN_IMSAK] = offsets;
   _pt->offsets[PT_TN_FAJR] = offsets;
-  _pt->offsets[PT_TN_SUNRISE] = offsets;
+  /* _pt->offsets[PT_TN_SUNRISE] = offsets; */
   _pt->offsets[PT_TN_DHUHR] = offsets;
   _pt->offsets[PT_TN_ASR] = offsets;
-  _pt->offsets[PT_TN_SUNSET] = offsets;
+  /* _pt->offsets[PT_TN_SUNSET] = offsets; */
   _pt->offsets[PT_TN_MAGHRIB] = offsets;
   _pt->offsets[PT_TN_ISHA] = offsets;
-  _pt->offsets[PT_TN_MIDNIGHT] = offsets;
+  /* _pt->offsets[PT_TN_MIDNIGHT] = offsets; */
 }
 
 PT_Method_t
