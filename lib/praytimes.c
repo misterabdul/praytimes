@@ -12,7 +12,7 @@ typedef struct private_pt_settings_t
   double imsak;
   double fajr;
   double dhuhr;
-  PT_ArsJuristic_t asr;
+  PT_AsrJuristic_t asr;
   double maghrib;
   double isha;
   PT_MidnightMethod_t midnight;
@@ -109,7 +109,7 @@ PT__adjust(PT pt,
            const double imsak,
            const double fajr,
            const double dhuhr,
-           const PT_ArsJuristic_t asr,
+           const PT_AsrJuristic_t asr,
            const double maghrib,
            const double isha,
            const PT_MidnightMethod_t midnight,
@@ -159,14 +159,14 @@ PT__getOffset(const PT pt)
  * Calculate asr time
  *
  * @param[in]  jDate
- * @param[in]  arsJuristic
+ * @param[in]  asrJuristic
  * @param[in]  time
  * @param[in]  lat
  * @return
  **/
 static inline double
 PT__asrTime(const double jDate,
-            const PT_ArsJuristic_t asrJuristic,
+            const PT_AsrJuristic_t asrJuristic,
             const double time,
             const double lat)
 {

@@ -41,11 +41,11 @@ typedef enum PT_Methods
   PT_M_INDONESIA, /* Kementrian Agama Republik Indonesia */
 } PT_Method_t;
 
-typedef enum PT_ArsJuristics
+typedef enum PT_AsrJuristics
 {
   PT_AJ_STANDARD, /* Shafi'i, Maliki, Ja'fari, Hanbali */
   PT_AJ_HANAFI,   /* Hanafi */
-} PT_ArsJuristic_t;
+} PT_AsrJuristic_t;
 
 typedef enum PT_MidnightMethods
 {
@@ -104,7 +104,7 @@ PT__adjust(PT pt,
            const double imsak,
            const double fajr,
            const double dhuhr,
-           const PT_ArsJuristic_t asr,
+           const PT_AsrJuristic_t asr,
            const double maghrib,
            const double isha,
            const PT_MidnightMethod_t midnight,
