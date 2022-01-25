@@ -101,6 +101,7 @@ PT__setMethod(PT pt, const PT_Method_t method)
     case PT_M_INDONESIA:
       _pt->settings.fajr = 20.0f;
       _pt->settings.isha = 18.0f;
+      break;
   }
 }
 
