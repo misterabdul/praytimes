@@ -1,6 +1,6 @@
 # PrayTimes
 
-Implementation of moslem prayer times in C. Based on javascript code from: [PrayTime.js (ver 2.3)](http://praytimes.org/code/).
+Implementation of moslem prayer times in C. Based on javascript code from: [PrayTime.js (ver 2.3)](https://web.archive.org/web/20200729090114/http://praytimes.org/code/).
 
 ## Example Usage
 
